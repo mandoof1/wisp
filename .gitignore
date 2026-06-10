@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Go
+implant/implant
+build/implant
+build/implant.exe
+build/implant-arm64
+build/implant-darwin
+
+# Build artifacts
+build/*.tar.gz
+build/*.zip
+
+# Database
+*.db
+*.sqlite
+
+# Demo / artifacts
+*.cast
+*.gif
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
+/tmp/

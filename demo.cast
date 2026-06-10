@@ -1,0 +1,9 @@
+{"version":3,"term":{"cols":80,"rows":24},"timestamp":1781087244,"command":"bash demo.sh","title":"C2 Framework — Full Beacon Cycle","env":{"SHELL":"/bin/fish"}}
+[0.005, "o", "\r\n  \u001b[1m1. Health check\u001b[0m\r\n"]
+[0.015, "o", "  \u001b[32m✓ Server is running — {\"service\":\"c2-framework\",\"version\":\"0.1.0\",\"status\":\"running\"}\u001b[0m\r\n\r\n  \u001b[1m2. Waiting for implant to register...\u001b[0m\r\n"]
+[0.086, "o", "  \u001b[32m✓ Beacon registered: f43ee7a6-198e-44b2-80b5-23dd91d91fab\u001b[0m\r\n\r\n  \u001b[1m3. Beacon details\u001b[0m\r\n"]
+[0.070, "o", "  {\r\n      \"beacon\": {\r\n          \"id\": \"f43ee7a6-198e-44b2-80b5-23dd91d91fab\",\r\n          \"hostname\": \"meowman\",\r\n          \"username\": \"meowman\",\r\n          \"os\": \"linux\",\r\n          \"arch\": \"amd64\",\r\n          \"pid\": 10831,\r\n          \"sleep_interval\": 5,\r\n          \"jitter\": 0.3,\r\n          \"first_seen\": \"2026-06-10T10:27:03.916124\",\r\n          \"last_seen\": \"2026-06-10T10:27:22.133629\",\r\n          \"tags\": []\r\n      }\r\n  }\r\n"]
+[0.009, "o", "  \u001b[32m✓ Beacon detail retrieved\u001b[0m\r\n\r\n  \u001b[1m4. Issuing command: whoami\u001b[0m\r\n"]
+[0.092, "o", "  \u001b[32m✓ Task created: 39eceb8f-7c30-4938-84d6-6efa4f502f13\u001b[0m\r\n\r\n  \u001b[1m5. Polling for result...\u001b[0m\r\n"]
+[4.217, "o", "\r\n  \u001b[1mRESULT — meowman\u001b[0m\r\n  \u001b[32m✓ Task completed successfully\u001b[0m\r\n\r\n  \u001b[1m─── Summary ───\u001b[0m\r\n  Passed: 5  Failed: 0\r\n  \u001b[32m✓ All checks passed!\u001b[0m\r\n"]
+[0.001, "x", "0"]
