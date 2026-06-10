@@ -1,4 +1,4 @@
-"""C2 Framework — Interactive CLI Controller.
+"""Wisp — Interactive CLI Controller.
 
 Usage:
     python -m client.c2cli --server http://localhost:8443
@@ -124,7 +124,7 @@ def watch_beacon(client: C2Client, beacon_id: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="C2 Framework CLI")
+    parser = argparse.ArgumentParser(description="Wisp C2 CLI")
     parser.add_argument("--server", "-s", default="http://127.0.0.1:8443",
                         help="Server URL (default: http://127.0.0.1:8443)")
     parser.add_argument("--insecure", "-k", action="store_true",

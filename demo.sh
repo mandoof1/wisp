@@ -2,7 +2,7 @@
 set -e
 
 # ──────────────────────────────────────────────────
-#  C2 Framework — Demo Script
+#  Wisp — Demo Script
 #  Shows the full beacon cycle via the REST API.
 # ──────────────────────────────────────────────────
 

@@ -1,4 +1,4 @@
-# C2 Framework — Design Document
+# Wisp — Design Document
 
 ## Overview
 A lightweight command-and-control framework for red team operations. Implant polls a REST server for tasks, executes them, and exfiltrates results. Everything is encrypted at rest and in transit.

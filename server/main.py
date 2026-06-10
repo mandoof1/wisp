@@ -1,4 +1,4 @@
-"""C2 Framework — FastAPI Server Entrypoint."""
+"""Wisp — FastAPI Server Entrypoint."""
 
 import uvicorn
 from fastapi import FastAPI
@@ -8,7 +8,7 @@ from server.config import SERVER_HOST, SERVER_PORT
 from server.database import init_db
 from server.routes import router
 
-app = FastAPI(title="C2 Framework API", version="0.1.0")
+app = FastAPI(title="Wisp API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,13 +1,16 @@
-# 🎯 C2 Framework
+# 🌫️ Wisp
 
 [![Go](https://img.shields.io/badge/Go-1.24%2B-00ADD8?logo=go)](https://go.dev)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub](https://img.shields.io/badge/github-mandoof1%2Fwisp-181717?logo=github)](https://github.com/mandoof1/wisp)
 [![Demo](https://img.shields.io/badge/demo-asciinema-1A1A1A?logo=asciinema)](demo.cast)
 _Run `asciinema play demo.cast` to watch the demo._
 
-Lightweight, encrypted command-and-control framework for red team operations.
-Go implant, Python FastAPI server, SQLite backend. X25519 forward secrecy.
+A lightweight, encrypted command-and-control framework. Ephemeral as a will-o'-wisp —
+here just long enough to beacon, then gone.
+
+**Go implant · Python FastAPI server · SQLite · X25519 forward secrecy**
 
 ## Features
 
